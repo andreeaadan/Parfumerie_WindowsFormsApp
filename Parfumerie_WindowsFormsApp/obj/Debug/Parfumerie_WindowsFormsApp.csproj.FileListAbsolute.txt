@@ -1,0 +1,110 @@
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.exe.config
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.exe
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.pdb
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.Properties.Resources.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.exe
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.pdb
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaClientForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaComandaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaNotaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaNoteForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaClientForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaNotaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.Meniu.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Buffers.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Memory.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Buffers.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Memory.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.CopyComplete
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaClientiForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.exe.config
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.exe
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.pdb
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Buffers.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Memory.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Buffers.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Memory.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaClientForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaComandaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaNotaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaClientiForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaComenzi.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaNoteForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaClientForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaComandaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaNotaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.Meniu.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.Properties.Resources.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.CopyComplete
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.exe
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.pdb
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsAppp\Parfumerie_WindowsFormsApp\bin\Debug\database.db
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaAccentForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaAccentForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaAccenteForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaComenziForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaAccentForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaClientForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaComandaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AdaugaNotaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaAccenteForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaClientiForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaComenziForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.AfiseazaNoteForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaAccentForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaClientForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaComandaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.EditeazaNotaForm.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.Meniu.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.Properties.Resources.resources
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.exe
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.pdb
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\database.db
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.exe.config
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.exe
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\Parfumerie_WindowsFormsApp.pdb
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Buffers.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Memory.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Buffers.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Memory.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp - Copy 29.03 - Copy\Parfumerie_WindowsFormsApp\obj\Debug\Parfumerie_WindowsFormsApp.csproj.CopyComplete
+C:\Users\Asus\Desktop\Parfumerie_WindowsFormsApp\Parfumerie_WindowsFormsApp\bin\Debug\parfumerie.db
