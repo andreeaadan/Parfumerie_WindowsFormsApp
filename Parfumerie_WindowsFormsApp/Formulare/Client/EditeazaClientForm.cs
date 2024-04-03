@@ -16,7 +16,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class EditeazaClientForm : Form
     {
         private Client client;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
         public EditeazaClientForm(Client client)
         {
             InitializeComponent();

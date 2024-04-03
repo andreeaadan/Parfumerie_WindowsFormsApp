@@ -15,7 +15,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class AdaugaNotaForm : Form
     {
         private List<Nota> note;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
         public AdaugaNotaForm(List<Nota> note)
         {
             InitializeComponent();
@@ -76,6 +76,7 @@ namespace Parfumerie_WindowsFormsApp
         private void btnAfiseazaNote_Click(object sender, EventArgs e)
         {
             AfiseazaNoteForm afiseazaNoteForm = new AfiseazaNoteForm(note);
+            Hide();
             afiseazaNoteForm.ShowDialog();
         }
     }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AfiseazaAccenteForm));
             this.lvAccente = new System.Windows.Forms.ListView();
             this.id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.denumire = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -48,10 +49,10 @@
             this.lvAccente.FullRowSelect = true;
             this.lvAccente.GridLines = true;
             this.lvAccente.HideSelection = false;
-            this.lvAccente.Location = new System.Drawing.Point(34, 44);
+            this.lvAccente.Location = new System.Drawing.Point(63, 59);
             this.lvAccente.Margin = new System.Windows.Forms.Padding(4);
             this.lvAccente.Name = "lvAccente";
-            this.lvAccente.Size = new System.Drawing.Size(373, 306);
+            this.lvAccente.Size = new System.Drawing.Size(327, 346);
             this.lvAccente.TabIndex = 3;
             this.lvAccente.UseCompatibleStateImageBehavior = false;
             this.lvAccente.View = System.Windows.Forms.View.Details;
@@ -78,13 +79,13 @@
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deleteToolStripMenuItem});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(211, 56);
+            this.contextMenuStrip.Size = new System.Drawing.Size(181, 28);
             this.contextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip_Opening);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
             this.deleteToolStripMenuItem.Text = "Sterge accentul";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
@@ -92,11 +93,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(451, 412);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(466, 477);
             this.ContextMenuStrip = this.contextMenuStrip;
             this.Controls.Add(this.lvAccente);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AfiseazaAccenteForm";
-            this.Text = "AfiseazaAccenteForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Accente";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AfiseazaAccenteForm_FormClosed);
             this.contextMenuStrip.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -12,16 +12,16 @@ namespace Parfumerie_WindowsFormsApp
 {
     public partial class AdaugaComandaForm : Form
     {
-        private List<Accent> accente;
-        private List<Nota> note;
-        private List<Client> clienti;
+        private readonly List<Accent> accente;
+        private readonly List<Nota> note;
+        private readonly List<Client> clienti;
         private List<Comanda> comenzi;
         private string connectionString = "Data Source = parfumerie.db";
 
         private CheckedListBox clbAccente;
         private float pretTotal = 0;
 
-        Dictionary<Categorie, string> categorieDisplayStrings = new Dictionary<Categorie, string>
+        private readonly Dictionary<Categorie, string> categorieDisplayStrings = new Dictionary<Categorie, string>
         {
             { Categorie.ApaDeToaleta, "Apa de toaleta" },
             { Categorie.ApaDeParfum, "Apa de parfum" },
@@ -60,22 +60,18 @@ namespace Parfumerie_WindowsFormsApp
         private void InitializeCheckedListBox()
         {
             clbAccente = new CheckedListBox();
-            clbAccente.ItemCheck += clbAccente_ItemCheck;
-            Controls.Add(clbAccente);
-            clbAccente.Visible = false;
-        }
-        private void AdaugaComandaForm_Load(object sender, EventArgs e)
-        {
-            clbAccente = new CheckedListBox();
             clbAccente.Name = "clbAccente";
             clbAccente.FormattingEnabled = true;
             clbAccente.CheckOnClick = true;
+
+            clbAccente.ItemCheck += clbAccente_ItemCheck;
 
             foreach (Accent accent in accente)
             {
                 clbAccente.Items.Add(accent.Denumire);
             }
 
+            Controls.Add(clbAccente);
             clbAccente.Visible = false;
         }
 

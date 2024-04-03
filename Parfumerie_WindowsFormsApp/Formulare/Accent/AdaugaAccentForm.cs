@@ -76,6 +76,7 @@ namespace Parfumerie_WindowsFormsApp
         private void btnAfiseazaAccente_Click(object sender, EventArgs e)
         {
             AfiseazaAccenteForm afiseazaAccenteForm = new AfiseazaAccenteForm(accente);
+            Hide();
             afiseazaAccenteForm.ShowDialog();
         }
     }

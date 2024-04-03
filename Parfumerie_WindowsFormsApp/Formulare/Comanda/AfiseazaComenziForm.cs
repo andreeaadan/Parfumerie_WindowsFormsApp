@@ -14,9 +14,9 @@ namespace Parfumerie_WindowsFormsApp
     public partial class AfiseazaComenziForm : Form
     {
         private List<Comanda> comenzi;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
 
-        Dictionary<Categorie, string> categorieDisplayStrings = new Dictionary<Categorie, string>
+        private Dictionary<Categorie, string> categorieDisplayStrings = new Dictionary<Categorie, string>
         {
             { Categorie.ApaDeToaleta, "Apa de toaleta" },
             { Categorie.ApaDeParfum, "Apa de parfum" },

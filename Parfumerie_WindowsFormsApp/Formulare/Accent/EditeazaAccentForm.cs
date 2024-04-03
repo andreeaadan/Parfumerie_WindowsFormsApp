@@ -15,7 +15,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class EditeazaAccentForm : Form
     {
         private Accent accent;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
 
         public EditeazaAccentForm(Accent accent)
         {

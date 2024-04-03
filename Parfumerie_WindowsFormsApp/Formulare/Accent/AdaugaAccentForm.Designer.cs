@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdaugaAccentForm));
             this.btnAfiseazaAccente = new System.Windows.Forms.Button();
             this.btnAdaugaAccent = new System.Windows.Forms.Button();
             this.tbDenumire = new System.Windows.Forms.TextBox();
@@ -63,21 +64,21 @@
             // 
             // tbDenumire
             // 
-            this.tbDenumire.Location = new System.Drawing.Point(169, 124);
+            this.tbDenumire.Location = new System.Drawing.Point(170, 157);
             this.tbDenumire.Name = "tbDenumire";
             this.tbDenumire.Size = new System.Drawing.Size(130, 22);
             this.tbDenumire.TabIndex = 52;
             // 
             // tbPretPerMl
             // 
-            this.tbPretPerMl.Location = new System.Drawing.Point(169, 169);
+            this.tbPretPerMl.Location = new System.Drawing.Point(170, 202);
             this.tbPretPerMl.Name = "tbPretPerMl";
             this.tbPretPerMl.Size = new System.Drawing.Size(130, 22);
             this.tbPretPerMl.TabIndex = 51;
             // 
             // tbID
             // 
-            this.tbID.Location = new System.Drawing.Point(169, 79);
+            this.tbID.Location = new System.Drawing.Point(170, 112);
             this.tbID.Name = "tbID";
             this.tbID.Size = new System.Drawing.Size(130, 22);
             this.tbID.TabIndex = 50;
@@ -85,7 +86,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 169);
+            this.label3.Location = new System.Drawing.Point(51, 202);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 16);
             this.label3.TabIndex = 49;
@@ -94,7 +95,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(50, 124);
+            this.label2.Location = new System.Drawing.Point(51, 157);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 48;
@@ -103,7 +104,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(50, 79);
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(51, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 16);
             this.label1.TabIndex = 47;
@@ -117,7 +119,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(362, 390);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(364, 401);
             this.Controls.Add(this.btnAfiseazaAccente);
             this.Controls.Add(this.btnAdaugaAccent);
             this.Controls.Add(this.tbDenumire);
@@ -126,8 +130,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdaugaAccentForm";
-            this.Text = "AdaugaAccent";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Adauga accent";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

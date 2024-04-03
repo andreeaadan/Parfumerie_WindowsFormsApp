@@ -54,22 +54,24 @@
             // 
             // btnAfiseazaComenzi
             // 
+            this.btnAfiseazaComenzi.BackColor = System.Drawing.SystemColors.Control;
             this.btnAfiseazaComenzi.Location = new System.Drawing.Point(127, 449);
             this.btnAfiseazaComenzi.Name = "btnAfiseazaComenzi";
             this.btnAfiseazaComenzi.Size = new System.Drawing.Size(185, 26);
             this.btnAfiseazaComenzi.TabIndex = 35;
             this.btnAfiseazaComenzi.Text = "Afiseaza toate comenzile";
-            this.btnAfiseazaComenzi.UseVisualStyleBackColor = true;
+            this.btnAfiseazaComenzi.UseVisualStyleBackColor = false;
             this.btnAfiseazaComenzi.Click += new System.EventHandler(this.btnAfiseazaComenzi_Click);
             // 
             // btnAdaugaComanda
             // 
+            this.btnAdaugaComanda.BackColor = System.Drawing.SystemColors.Control;
             this.btnAdaugaComanda.Location = new System.Drawing.Point(127, 404);
             this.btnAdaugaComanda.Name = "btnAdaugaComanda";
             this.btnAdaugaComanda.Size = new System.Drawing.Size(185, 26);
             this.btnAdaugaComanda.TabIndex = 30;
             this.btnAdaugaComanda.Text = "Adauga comanda";
-            this.btnAdaugaComanda.UseVisualStyleBackColor = true;
+            this.btnAdaugaComanda.UseVisualStyleBackColor = false;
             this.btnAdaugaComanda.Click += new System.EventHandler(this.btnAdaugaComanda_Click);
             // 
             // tbID
@@ -224,6 +226,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(436, 541);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label6);
@@ -241,9 +245,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AdaugaComandaForm";
-            this.Text = "AdaugaComanda";
-            this.Load += new System.EventHandler(this.AdaugaComandaForm_Load);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Adauga comanda";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();

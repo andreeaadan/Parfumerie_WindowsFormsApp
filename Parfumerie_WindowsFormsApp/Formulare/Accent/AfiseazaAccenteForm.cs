@@ -14,7 +14,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class AfiseazaAccenteForm : Form
     {
         private List<Accent> accente;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
 
         public AfiseazaAccenteForm(List<Accent> accente)
         {
@@ -24,7 +24,7 @@ namespace Parfumerie_WindowsFormsApp
         }
 
 
-        void DisplayAccente()
+        private void DisplayAccente()
         {
             accente.Sort();
             lvAccente.Items.Clear();
@@ -93,6 +93,16 @@ namespace Parfumerie_WindowsFormsApp
                 {
                     DisplayAccente();
                 }
+            }
+        }
+
+        private void AfiseazaAccenteForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            AdaugaAccentForm adaugaAccentForm = Application.OpenForms.OfType<AdaugaAccentForm>().FirstOrDefault();
+            if (adaugaAccentForm != null)
+            {
+                adaugaAccentForm.TopMost = true;
+                adaugaAccentForm.Show();
             }
         }
     }

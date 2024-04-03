@@ -15,7 +15,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class EditeazaNotaForm : Form
     {
         private Nota nota;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
 
         public EditeazaNotaForm(Nota nota)
         {

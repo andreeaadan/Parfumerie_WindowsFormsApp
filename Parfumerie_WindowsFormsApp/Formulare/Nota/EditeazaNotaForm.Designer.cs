@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditeazaNotaForm));
             this.btnActualizeazaNota = new System.Windows.Forms.Button();
             this.tbDenumire = new System.Windows.Forms.TextBox();
             this.tbPretPerMl = new System.Windows.Forms.TextBox();
@@ -42,7 +43,7 @@
             // 
             // btnActualizeazaNota
             // 
-            this.btnActualizeazaNota.Location = new System.Drawing.Point(86, 248);
+            this.btnActualizeazaNota.Location = new System.Drawing.Point(81, 270);
             this.btnActualizeazaNota.Name = "btnActualizeazaNota";
             this.btnActualizeazaNota.Size = new System.Drawing.Size(143, 26);
             this.btnActualizeazaNota.TabIndex = 53;
@@ -52,21 +53,21 @@
             // 
             // tbDenumire
             // 
-            this.tbDenumire.Location = new System.Drawing.Point(149, 106);
+            this.tbDenumire.Location = new System.Drawing.Point(144, 159);
             this.tbDenumire.Name = "tbDenumire";
             this.tbDenumire.Size = new System.Drawing.Size(130, 22);
             this.tbDenumire.TabIndex = 52;
             // 
             // tbPretPerMl
             // 
-            this.tbPretPerMl.Location = new System.Drawing.Point(149, 151);
+            this.tbPretPerMl.Location = new System.Drawing.Point(144, 204);
             this.tbPretPerMl.Name = "tbPretPerMl";
             this.tbPretPerMl.Size = new System.Drawing.Size(130, 22);
             this.tbPretPerMl.TabIndex = 51;
             // 
             // tbID
             // 
-            this.tbID.Location = new System.Drawing.Point(149, 61);
+            this.tbID.Location = new System.Drawing.Point(144, 114);
             this.tbID.Name = "tbID";
             this.tbID.ReadOnly = true;
             this.tbID.Size = new System.Drawing.Size(130, 22);
@@ -75,7 +76,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 151);
+            this.label3.Location = new System.Drawing.Point(25, 204);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 16);
             this.label3.TabIndex = 49;
@@ -84,7 +85,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 106);
+            this.label2.Location = new System.Drawing.Point(25, 159);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 48;
@@ -93,7 +94,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 61);
+            this.label1.Location = new System.Drawing.Point(25, 114);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 16);
             this.label1.TabIndex = 47;
@@ -107,7 +108,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 343);
+            this.BackgroundImage = global::Parfumerie_WindowsFormsApp.Properties.Resources.background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(312, 390);
             this.Controls.Add(this.btnActualizeazaNota);
             this.Controls.Add(this.tbDenumire);
             this.Controls.Add(this.tbPretPerMl);
@@ -115,8 +118,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EditeazaNotaForm";
-            this.Text = "EditeazaNota";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Editeaza nota";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

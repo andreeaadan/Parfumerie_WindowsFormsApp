@@ -14,7 +14,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class AfiseazaClientiForm : Form
     {
         private List<Client> clienti;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
 
         public AfiseazaClientiForm(List<Client> clienti)
         {
@@ -23,7 +23,7 @@ namespace Parfumerie_WindowsFormsApp
             DisplayClienti();
         }
 
-        void DisplayClienti()
+        private void DisplayClienti()
         {
             clienti.Sort();
             lvClienti.Items.Clear();
@@ -94,6 +94,16 @@ namespace Parfumerie_WindowsFormsApp
                 {
                     DisplayClienti();
                 }
+            }
+        }
+
+        private void AfiseazaClientiForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            AdaugaClientForm adaugaClientForm = Application.OpenForms.OfType<AdaugaClientForm>().FirstOrDefault();
+            if (adaugaClientForm != null)
+            {
+                adaugaClientForm.TopMost = true;
+                adaugaClientForm.Show();
             }
         }
     }

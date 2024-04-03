@@ -78,6 +78,7 @@ namespace Parfumerie_WindowsFormsApp.Validatori_input
             else if (tbTelefon.Text.Length != 10)
             {
                 errorProvider.SetError(tbTelefon, "Numarul de telefonul trebuie sa aiba 10 cifre.");
+                isValid = false;
             }
 
             if (string.IsNullOrWhiteSpace(tbEmail.Text))

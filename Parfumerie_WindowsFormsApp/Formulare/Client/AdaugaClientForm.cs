@@ -15,8 +15,8 @@ namespace Parfumerie_WindowsFormsApp
 {
     public partial class AdaugaClientForm : Form
     {
-        public List<Client> clienti;
-        private string connectionString = "Data Source = parfumerie.db";
+        private List<Client> clienti;
+        private readonly string connectionString = "Data Source = parfumerie.db";
         public AdaugaClientForm(List<Client> clienti)
         {
             InitializeComponent();
@@ -54,7 +54,7 @@ namespace Parfumerie_WindowsFormsApp
         }
 
 
-        void AddClientToDB(Client client)
+        private void AddClientToDB(Client client)
         {
             string query = "INSERT INTO Clienti(Id, Nume, Prenume, Telefon, Email) VALUES(@id, @nume, @prenume, @telefon, @email)";
 
@@ -71,7 +71,6 @@ namespace Parfumerie_WindowsFormsApp
                     command.ExecuteNonQuery();
                 }
             }
-
         }
 
         private void ClearInputFields()
@@ -86,6 +85,7 @@ namespace Parfumerie_WindowsFormsApp
         private void btnAfiseazaClienti_Click(object sender, EventArgs e)
         {
             AfiseazaClientiForm afiseazaClientiForm = new AfiseazaClientiForm(clienti);
+            Hide();
             afiseazaClientiForm.ShowDialog();
         }
     }

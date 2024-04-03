@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AfiseazaClientiForm));
             this.lvClienti = new System.Windows.Forms.ListView();
             this.id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nume = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -53,7 +54,7 @@
             this.lvClienti.FullRowSelect = true;
             this.lvClienti.GridLines = true;
             this.lvClienti.HideSelection = false;
-            this.lvClienti.Location = new System.Drawing.Point(77, 39);
+            this.lvClienti.Location = new System.Drawing.Point(26, 35);
             this.lvClienti.Margin = new System.Windows.Forms.Padding(4);
             this.lvClienti.Name = "lvClienti";
             this.lvClienti.Size = new System.Drawing.Size(647, 373);
@@ -93,13 +94,13 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.deleteToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 56);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(162, 28);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(161, 24);
             this.deleteToolStripMenuItem.Text = "Sterge client";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
@@ -107,10 +108,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Parfumerie_WindowsFormsApp.Properties.Resources.background;
+            this.ClientSize = new System.Drawing.Size(723, 448);
             this.Controls.Add(this.lvClienti);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AfiseazaClientiForm";
-            this.Text = "AfiseazaClientiForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Clienti";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AfiseazaClientiForm_FormClosed);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 

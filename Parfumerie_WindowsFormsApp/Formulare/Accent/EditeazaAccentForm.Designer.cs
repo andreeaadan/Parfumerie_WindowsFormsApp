@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditeazaAccentForm));
             this.btnActualizeazaAccent = new System.Windows.Forms.Button();
             this.tbDenumire = new System.Windows.Forms.TextBox();
             this.tbPretPerMl = new System.Windows.Forms.TextBox();
@@ -42,7 +43,7 @@
             // 
             // btnActualizeazaAccent
             // 
-            this.btnActualizeazaAccent.Location = new System.Drawing.Point(86, 258);
+            this.btnActualizeazaAccent.Location = new System.Drawing.Point(79, 271);
             this.btnActualizeazaAccent.Name = "btnActualizeazaAccent";
             this.btnActualizeazaAccent.Size = new System.Drawing.Size(143, 26);
             this.btnActualizeazaAccent.TabIndex = 60;
@@ -52,21 +53,21 @@
             // 
             // tbDenumire
             // 
-            this.tbDenumire.Location = new System.Drawing.Point(149, 116);
+            this.tbDenumire.Location = new System.Drawing.Point(147, 162);
             this.tbDenumire.Name = "tbDenumire";
             this.tbDenumire.Size = new System.Drawing.Size(130, 22);
             this.tbDenumire.TabIndex = 59;
             // 
             // tbPretPerMl
             // 
-            this.tbPretPerMl.Location = new System.Drawing.Point(149, 161);
+            this.tbPretPerMl.Location = new System.Drawing.Point(147, 207);
             this.tbPretPerMl.Name = "tbPretPerMl";
             this.tbPretPerMl.Size = new System.Drawing.Size(130, 22);
             this.tbPretPerMl.TabIndex = 58;
             // 
             // tbID
             // 
-            this.tbID.Location = new System.Drawing.Point(149, 71);
+            this.tbID.Location = new System.Drawing.Point(147, 117);
             this.tbID.Name = "tbID";
             this.tbID.ReadOnly = true;
             this.tbID.Size = new System.Drawing.Size(130, 22);
@@ -75,7 +76,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 161);
+            this.label3.Location = new System.Drawing.Point(28, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 16);
             this.label3.TabIndex = 56;
@@ -84,7 +85,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 116);
+            this.label2.Location = new System.Drawing.Point(28, 162);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 55;
@@ -93,7 +94,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 71);
+            this.label1.Location = new System.Drawing.Point(28, 117);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(20, 16);
             this.label1.TabIndex = 54;
@@ -107,7 +108,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(330, 387);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(314, 392);
             this.Controls.Add(this.btnActualizeazaAccent);
             this.Controls.Add(this.tbDenumire);
             this.Controls.Add(this.tbPretPerMl);
@@ -115,7 +118,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EditeazaAccentForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditeazaAccentForm";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

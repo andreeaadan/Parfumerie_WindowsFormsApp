@@ -14,7 +14,7 @@ namespace Parfumerie_WindowsFormsApp
     public partial class AfiseazaNoteForm : Form
     {
         private List<Nota> note;
-        private string connectionString = "Data Source = parfumerie.db";
+        private readonly string connectionString = "Data Source = parfumerie.db";
 
         public AfiseazaNoteForm(List<Nota> note)
         {
@@ -93,6 +93,16 @@ namespace Parfumerie_WindowsFormsApp
                 {
                     DisplayNote();
                 }
+            }
+        }
+
+        private void AfiseazaNoteForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            AdaugaNotaForm adaugaNotaForm = Application.OpenForms.OfType<AdaugaNotaForm>().FirstOrDefault();
+            if (adaugaNotaForm != null)
+            {
+                adaugaNotaForm.TopMost = true;
+                adaugaNotaForm.Show();
             }
         }
     }

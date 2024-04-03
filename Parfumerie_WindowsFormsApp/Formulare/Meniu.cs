@@ -23,148 +23,152 @@ namespace Parfumerie_WindowsFormsApp
             InitializeComponent();
         }
 
-        void PreluareNoteDinBD()
+        void RetrieveNoteFromDB()
         {
             using (SqliteConnection connection = new SqliteConnection(connectionString))
             {
                 string query = "SELECT * FROM Note";
-                SqliteCommand command = new SqliteCommand(query, connection);
-
-                connection.Open();
-                using (SqliteDataReader reader = command.ExecuteReader())
+                using (SqliteCommand command = new SqliteCommand(query, connection))
                 {
-                    while (reader.Read())
+                    connection.Open();
+                    using (SqliteDataReader reader = command.ExecuteReader())
                     {
-                        int id = Convert.ToInt32(reader["Id"]);
-                        string denumire = (string)reader["Denumire"];
-                        int pretPerMl = Convert.ToInt32(reader["Pret"]);
+                        while (reader.Read())
+                        {
+                            int id = Convert.ToInt32(reader["Id"]);
+                            string denumire = (string)reader["Denumire"];
+                            float pretPerMl = Convert.ToSingle(reader["Pret"]);
 
-                        Nota nota = new Nota(id, denumire, pretPerMl);
-                        note.Add(nota);
+                            Nota nota = new Nota(id, denumire, pretPerMl);
+                            note.Add(nota);
+                        }
                     }
                 }
             }
         }
 
-        void PreluareClientiDinBD()
+        void RetrieveClientiFromDB()
         {
             using (SqliteConnection connection = new SqliteConnection(connectionString))
             {
                 string query = "SELECT * FROM Clienti";
-                SqliteCommand command = new SqliteCommand(query, connection);
-
-                connection.Open();
-                using (SqliteDataReader reader = command.ExecuteReader())
+                using (SqliteCommand command = new SqliteCommand(query, connection))
                 {
-                    while (reader.Read())
+                    connection.Open();
+                    using (SqliteDataReader reader = command.ExecuteReader())
                     {
-                        int id = Convert.ToInt32(reader["Id"]);
-                        string nume = (string)reader["Nume"];
-                        string prenume = (string)reader["Prenume"];
-                        string telefon = (string)reader["Telefon"];
-                        string email = (string)reader["Email"];
+                        while (reader.Read())
+                        {
+                            int id = Convert.ToInt32(reader["Id"]);
+                            string nume = (string)reader["Nume"];
+                            string prenume = (string)reader["Prenume"];
+                            string telefon = (string)reader["Telefon"];
+                            string email = (string)reader["Email"];
 
-                        Client client = new Client(id, nume, prenume, telefon, email);
-                        clienti.Add(client);
+                            Client client = new Client(id, nume, prenume, telefon, email);
+                            clienti.Add(client);
+                        }
                     }
+
                 }
             }
-
         }
 
-        void PreluareAccenteDinBD()
+        void RetrieveAccenteFromDB()
         {
             using (SqliteConnection connection = new SqliteConnection(connectionString))
             {
                 string query = "SELECT * FROM Accente";
-                SqliteCommand command = new SqliteCommand(query, connection);
-
-                connection.Open();
-                using (SqliteDataReader reader = command.ExecuteReader())
+                using (SqliteCommand command = new SqliteCommand(query, connection))
                 {
-                    while (reader.Read())
+                    connection.Open();
+                    using (SqliteDataReader reader = command.ExecuteReader())
                     {
-                        int id = Convert.ToInt32(reader["Id"]);
-                        string denumire = (string)reader["Denumire"];
-                        float pretPerMl = Convert.ToSingle(reader["Pret"]); ;
-                        Accent accent = new Accent(id, denumire, pretPerMl);
-                        accente.Add(accent);
+                        while (reader.Read())
+                        {
+                            int id = Convert.ToInt32(reader["Id"]);
+                            string denumire = (string)reader["Denumire"];
+                            float pretPerMl = Convert.ToSingle(reader["Pret"]); ;
+                            Accent accent = new Accent(id, denumire, pretPerMl);
+                            accente.Add(accent);
+                        }
                     }
                 }
             }
         }
 
-        private void PreluareComenziDinBD()
+        private void RetrieveComenziFromDB()
         {
             string query = "SELECT * FROM Comenzi";
 
             using (SqliteConnection connection = new SqliteConnection(connectionString))
             {
-                SqliteCommand command = new SqliteCommand(query, connection);
-
-                connection.Open();
-                using (SqliteDataReader reader = command.ExecuteReader())
+                using (SqliteCommand command = new SqliteCommand(query, connection))
                 {
-                    while (reader.Read())
+                    connection.Open();
+                    using (SqliteDataReader reader = command.ExecuteReader())
                     {
-                        int id = Convert.ToInt32(reader["Id"]);
-                        DateTime data = Convert.ToDateTime(reader["Data"]);
-                        int idClient = Convert.ToInt32(reader["Client"]);
-                        Categorie categorie = (Categorie)Enum.Parse(typeof(Categorie), reader["Categorie"].ToString());
-                        int idNota = Convert.ToInt32(reader["Nota"]);
-                        string accente = reader["Accente"].ToString();
-                        int cantitate = Convert.ToInt32(reader["Cantitate"]);
-                        float pret = Convert.ToSingle(reader["Pret"]);
-
-                        Client client = null;
-                        foreach (Client clientAux in clienti)
+                        while (reader.Read())
                         {
-                            if (clientAux.Id == idClient)
-                            {
-                                client = clientAux;
-                                break;
-                            }
-                        }
+                            int id = Convert.ToInt32(reader["Id"]);
+                            DateTime data = Convert.ToDateTime(reader["Data"]);
+                            int idClient = Convert.ToInt32(reader["Client"]);
+                            Categorie categorie = (Categorie)Enum.Parse(typeof(Categorie), reader["Categorie"].ToString());
+                            int idNota = Convert.ToInt32(reader["Nota"]);
+                            string accente = reader["Accente"].ToString();
+                            int cantitate = Convert.ToInt32(reader["Cantitate"]);
+                            float pret = Convert.ToSingle(reader["Pret"]);
 
-                        Nota nota = null;
-                        foreach (Nota notaAux in note)
-                        {
-                            if (notaAux.Id == idNota)
+                            Client client = null;
+                            foreach (Client clientAux in clienti)
                             {
-                                nota = notaAux;
-                                break;
+                                if (clientAux.Id == idClient)
+                                {
+                                    client = clientAux;
+                                    break;
+                                }
                             }
-                        }
 
-                        Comanda comanda = new Comanda(id, data, client, categorie, nota, accente, cantitate, pret);
-                        comenzi.Add(comanda);
+                            Nota nota = null;
+                            foreach (Nota notaAux in note)
+                            {
+                                if (notaAux.Id == idNota)
+                                {
+                                    nota = notaAux;
+                                    break;
+                                }
+                            }
+
+                            Comanda comanda = new Comanda(id, data, client, categorie, nota, accente, cantitate, pret);
+                            comenzi.Add(comanda);
+                        }
                     }
                 }
             }
         }
         private void Meniu_Load(object sender, EventArgs e)
         {
-            PreluareNoteDinBD();
-            PreluareAccenteDinBD();
-            PreluareClientiDinBD();
-            PreluareComenziDinBD();
+            RetrieveNoteFromDB();
+            RetrieveAccenteFromDB();
+            RetrieveClientiFromDB();
+            RetrieveComenziFromDB();
         }
 
         private void btnAdaugaAccent_Click(object sender, EventArgs e)
         {
             AdaugaAccentForm adaugaAccentForm = new AdaugaAccentForm(accente);
-            adaugaAccentForm.ShowDialog();
+            adaugaAccentForm.Show();
         }
         private void btnAdaugaClient_Click(object sender, EventArgs e)
         {
             AdaugaClientForm adaugaClientForm = new AdaugaClientForm(clienti);
-            adaugaClientForm.ShowDialog();
+            adaugaClientForm.Show();
         }
 
         private void btnAdaugaNota_Click(object sender, EventArgs e)
         {
             AdaugaNotaForm adaugaNotaForm = new AdaugaNotaForm(note);
-            adaugaNotaForm.ShowDialog();
+            adaugaNotaForm.Show();
         }
 
         private void btnAdaugaComanda_Click(object sender, EventArgs e)
@@ -172,7 +176,5 @@ namespace Parfumerie_WindowsFormsApp
             AdaugaComandaForm adaugaComandaForm = new AdaugaComandaForm(accente, note, clienti, comenzi);
             adaugaComandaForm.ShowDialog();
         }
-
-
     }
 }
